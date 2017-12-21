@@ -38,7 +38,7 @@ library("ggplot2")
 library("dplyr")
 
 library("scales")
-setwd("D:/WorkSpace/WhatsappAnalysis")
+setwd("DIR_PATH")
 all_data <- readLines("WhatsApp Chat.txt")
 head(all_data)
 #convert to utf-8 encoding  and remove unrecognised
